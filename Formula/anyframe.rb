@@ -2,7 +2,8 @@ require 'formula'
 
 class Anyframe < Formula
   homepage 'https://github.com/mollifier/anyframe'
-  head 'https://github.com/mollifier/anyframe.git'
+  url 'https://github.com/mollifier/anyframe.git'
+  version '0.0.1'
 
   def install
     (share/'anyframe').install Dir['*']
