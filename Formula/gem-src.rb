@@ -7,7 +7,7 @@ class GemSrc < Formula
   head "https://github.com/amatsuda/gem-src.git"
 
   bottle :unneeded
-  depends_on :rbenv
+  depends_on "rbenv"
 
   def install
     prefix.install Dir["*"]
